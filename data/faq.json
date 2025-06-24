@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "question": "What does it cost to work with you?",
+    "answer": "Pricing depends on the scope of the project — whether it’s a half-day shoot, full-day coverage, or a content package. Once I understand your needs, I’ll provide a custom quote that fits your goals and budget."
+  },
+  {
+    "id": 2,
+    "question": "Do you travel for shoots?",
+    "answer": "Yes, I’m available for local and regional travel depending on your project. Travel costs (transport, accommodation if needed) are factored into the final quote."
+  },
+  {
+    "id": 3,
+    "question": "How do I book a session?",
+    "answer": "You can reach out through the contact page with a brief of what you need. From there, I’ll follow up to understand your goals and confirm availability."
+  },
+  {
+    "id": 4,
+    "question": "What’s your turnaround time for edited photos?",
+    "answer": "Depending on the project size, delivery is typically within 5–10 working days. For larger assignments, we’ll agree on a timeline upfront."
+  },
+  {
+    "id": 5,
+    "question": "Can I get both photos and social media-ready content?",
+    "answer": "Yes! I offer full content packages that include high-resolution images, social media crops, captions, and creative direction — tailored to your platform of choice."
+  },
+  {
+    "id": 6,
+    "question": "Do you offer retouching or editing services?",
+    "answer": "Absolutely. All final images are color-graded and lightly retouched for consistency, while preserving the natural look and feel of the moment."
+  }
+]
