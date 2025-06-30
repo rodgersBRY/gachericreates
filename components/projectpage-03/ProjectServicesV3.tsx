@@ -39,7 +39,7 @@ const ProjectServicesV3 = () => {
         <div className="grid grid-cols-1 gap-x-6 gap-y-14 md:grid-cols-2">
           {projects?.map((project) => (
             <RevealWrapper key={project.slug} className="single-project-item underline-hover-effect">
-              <Link href={`/portfolio-agency/case-study/${project.slug}`} className="block">
+              <Link href={`/gallery/${project.slug}`} className="block">
                 <figure className="overflow-hidden">
                   <Image
                     src={project.thumbnail}

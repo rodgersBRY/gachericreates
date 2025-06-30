@@ -27,7 +27,7 @@ const menuItems: MenuItemProps[] = [
   },
   {
     title: 'Gallery',
-    url: '/portfolio-agency/case-study',
+    url: '/gallery',
   },
   {
     title: 'Contact',

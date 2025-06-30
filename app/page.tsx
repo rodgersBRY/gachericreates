@@ -8,9 +8,9 @@ import CTA from '@/components/shared/CTA'
 import LayoutOne from '@/components/shared/LayoutOne'
 
 export const metadata = {
-  title: 'GacheriCreates | Wildlife & Event Photography',
+  title: 'GacheriCreates | | Photographer & Visual Storyteller',
   description:
-    'Professional wildlife and event photographer specializing in social media, digital marketing, PR & branding through powerful storytelling.',
+    'Authentic photography and creative storytelling that captures emotion, purpose, and beauty — from the wild to meaningful events. Let’s create visuals that connect',
 }
 
 const homepage4 = () => {

@@ -10,7 +10,9 @@ import SkewMarquee from '@/components/shared/SkewMarquee'
 import Video from '@/components/shared/Video'
 
 export const metadata = {
-  title: 'About | GacheriCreates',
+  title: 'About Me | Photographer, Creator & Storyteller',
+  description:
+    'Discover the story behind the lens. Learn how passion, experience, and creative vision come together in photography that goes beyond the image.',
 }
 
 const AboutPage = () => {

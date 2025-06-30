@@ -6,7 +6,9 @@ import LayoutOne from '@/components/shared/LayoutOne'
 import PageHero from '@/components/shared/PageHero'
 
 export const metadata = {
-  title: 'Services | GacheriCreates',
+  title: 'Creative Services | Photography, Content & Visual Strategy',
+  description:
+    'Explore a range of creative services — from professional photography to storytelling, content creation, and digital strategy — crafted to bring your vision to life.',
 }
 
 const ServicesPage = () => {

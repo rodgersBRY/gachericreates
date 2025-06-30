@@ -5,7 +5,9 @@ import LayoutOne from '@/components/shared/LayoutOne'
 import PageHero from '@/components/shared/PageHero'
 
 export const metadata = {
-  title: 'Contact | GacheriCreates',
+  title: 'Contact | Let’s Work Together',
+  description:
+    'Have a project in mind? Reach out to collaborate on photography, content, or creative direction. I’d love to hear from you',
 }
 
 const ContactPage = () => {
