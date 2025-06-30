@@ -1,16 +1,5 @@
 [
   {
-    "title": "Resources",
-    "links": [
-      { "href": "/ai-blog", "label": "Ai Blog" },
-      { "href": "/seo-blog", "label": "Seo Blog" },
-      { "href": "/design-agency", "label": "Design Agency" },
-      { "href": "/digital-agency", "label": "Digital Agency" },
-      { "href": "/portfolio-agency/case-study", "label": "Case Study" },
-      { "href": "/pricing", "label": "Pricing" }
-    ]
-  },
-  {
     "title": "[GacheriCreates]",
     "links": [
       { "href": "/about-02", "label": "About" },

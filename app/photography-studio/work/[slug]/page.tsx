@@ -28,18 +28,7 @@ const WorkDetails = async ({ params }: { params: Promise<{ slug: string }> }) =>
         scale
       />
       <ProjectContent project={project} />
-      <CTA>
-        Let's chat!
-        <CtaImageSlider
-          slides={[
-            { id: '1', img: '/images/agent/camera.jpg' },
-            { id: '2', img: '/images/agent/zebra8.jpg' },
-            { id: '3', img: '/images/agent/camera1.jpg' },
-          ]}
-        />
-        with us.
-        <i className="block font-instrument italic max-md:inline-block max-sm:pl-2 sm:mt-10">A virtual coffee?</i>
-      </CTA>
+      <CTA />
     </LayoutOne>
   )
 }
