@@ -29,18 +29,7 @@ const BlogDetails = async ({ params }: { params: Promise<{ slug: string }> }) =>
         spacing="pt-32 md:pt-44 lg:pt-[200px] pb-10 md:pb-16 lg:pb-[88px] xl:pb-[100px] relative overflow-hidden"
       />
       <BlogContent blog={blog} />
-      <CTA>
-        Let's chat!
-        <CtaImageSlider
-          slides={[
-            { id: '1', img: '/images/agent/18.png' },
-            { id: '2', img: '/images/agent/19.png' },
-            { id: '3', img: '/images/agent/03.jpg' },
-          ]}
-        />
-        with us.
-        <i className="block font-instrument italic max-md:inline-block max-sm:pl-2 sm:mt-10">A virtual coffee?</i>
-      </CTA>
+      <CTA />
     </LayoutOne>
   )
 }

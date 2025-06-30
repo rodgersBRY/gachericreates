@@ -1,5 +1,4 @@
 'use client'
-import { BlogType } from '@/app/ai-blog/page'
 import topArrowDark from '@/public/images/icons/top-arrow-dark.svg'
 import topArrow from '@/public/images/icons/top-arrow.svg'
 import Image from 'next/image'
@@ -7,6 +6,7 @@ import Link from 'next/link'
 import { FC, useState } from 'react'
 import RevealWrapper from '../animation/RevealWrapper'
 import Pagination from './Pagination'
+import { BlogType } from '@/app/types/BlogType'
 
 interface BlogsProps {
   Blogs: BlogType[]
