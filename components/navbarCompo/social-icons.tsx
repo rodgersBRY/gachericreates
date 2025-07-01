@@ -26,6 +26,7 @@ export function SocialIcons() {
           </svg>
         </Link>
       </span>
+
       <span>
         <Link href="">
           <svg
@@ -44,6 +45,7 @@ export function SocialIcons() {
           </svg>
         </Link>
       </span>
+
       <span>
         <Link href="">
           <svg
@@ -69,38 +71,7 @@ export function SocialIcons() {
           </svg>
         </Link>
       </span>
-      <span>
-        <Link href="">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="stroke-[#565656] duration-200 hover:stroke-white"
-            width="23"
-            height="23"
-            viewBox="0 0 20 20"
-            fill="none">
-            <path
-              d="M10 17.5C14.1421 17.5 17.5 14.1421 17.5 10C17.5 5.85786 14.1421 2.5 10 2.5C5.85786 2.5 2.5 5.85786 2.5 10C2.5 14.1421 5.85786 17.5 10 17.5Z"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-            <path
-              d="M5.55078 16.037C6.66328 14.1939 8.23315 12.6697 10.1082 11.6119C11.9832 10.5542 14.0997 9.99896 16.2524 10C16.6741 10 17.0905 10.0206 17.5017 10.0616"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-            <path
-              d="M14.6894 4.14795C13.5183 5.58738 12.0409 6.74742 10.3647 7.54356C8.68846 8.3397 6.85577 8.75188 5.00011 8.75007C4.20969 8.75045 3.42101 8.67625 2.64453 8.52846"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-            <path
-              d="M6.71484 3.25684C8.59445 4.35971 10.1529 5.93502 11.2355 7.82638C12.3181 9.71775 12.8871 11.8594 12.8861 14.0387C12.8869 15.0598 12.7627 16.0771 12.5165 17.0681"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-        </Link>
-      </span>
+
       <span>
         <Link href="">
           <svg

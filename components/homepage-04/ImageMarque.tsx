@@ -11,7 +11,7 @@ const ImageMarque = () => {
             <figure className="group relative min-w-56 md:min-w-[362px]">
               <Image width={360} height={516} src="/images/home-4/baby_elephant.jpg" alt=" 1" className="w-full" />
               <a
-                href="https://www.instagram.com/staticmania_/"
+                href="https://www.instagram.com/#/"
                 target="_blank"
                 className="absolute left-1/3 top-[55%] cursor-pointer opacity-0 transition-all duration-[400ms] ease-in-out group-hover:left-1/2 group-hover:top-1/2 group-hover:-translate-x-1/2 group-hover:-translate-y-1/2 group-hover:opacity-100">
                 <span>
@@ -40,7 +40,7 @@ const ImageMarque = () => {
             <figure className="group relative min-w-56 md:min-w-[362px]">
               <Image width={362} height={632} src="/images/home-4/giraffe1.jpg" alt=" 1" className="w-full" />
               <a
-                href="https://www.instagram.com/staticmania_/"
+                href="https://www.instagram.com/#/"
                 target="_blank"
                 className="absolute left-1/3 top-[55%] cursor-pointer opacity-0 transition-all duration-[400ms] ease-in-out group-hover:left-1/2 group-hover:top-1/2 group-hover:-translate-x-1/2 group-hover:-translate-y-1/2 group-hover:opacity-100">
                 <span>
@@ -69,7 +69,7 @@ const ImageMarque = () => {
             <figure className="group relative min-w-56 md:min-w-[362px]">
               <Image width={362} height={490} src="/images/home-4/person4.jpg" alt=" 1" className="w-full" />
               <a
-                href="https://www.instagram.com/staticmania_/"
+                href="https://www.instagram.com/#/"
                 target="_blank"
                 className="absolute left-1/3 top-[55%] cursor-pointer opacity-0 transition-all duration-[400ms] ease-in-out group-hover:left-1/2 group-hover:top-1/2 group-hover:-translate-x-1/2 group-hover:-translate-y-1/2 group-hover:opacity-100">
                 <span>
@@ -98,7 +98,7 @@ const ImageMarque = () => {
             <figure className="group relative min-w-56 md:min-w-[362px]">
               <Image width={340} height={632} src="/images/home-4/giraffe2.jpg" alt=" 1" className="w-full" />
               <a
-                href="https://www.instagram.com/staticmania_/"
+                href="https://www.instagram.com/#/"
                 target="_blank"
                 className="absolute left-1/3 top-[55%] cursor-pointer opacity-0 transition-all duration-[400ms] ease-in-out group-hover:left-1/2 group-hover:top-1/2 group-hover:-translate-x-1/2 group-hover:-translate-y-1/2 group-hover:opacity-100">
                 <span>
