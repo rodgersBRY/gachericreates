@@ -1,8 +1,8 @@
+import ServicesV3 from '@/components/homepage-03/ServicesV3'
 import AboutV4 from '@/components/homepage-04/AboutV4'
 import HeroV11 from '@/components/homepage-04/HeroV11'
 import ImageMarque from '@/components/homepage-04/ImageMarque'
 import ProjectServices from '@/components/homepage-04/ProjectServices'
-import ServicesV5 from '@/components/homepage-04/ServicesV5'
 import ClientsV3 from '@/components/shared/ClientsV3'
 import CTA from '@/components/shared/CTA'
 import LayoutOne from '@/components/shared/LayoutOne'
@@ -20,7 +20,7 @@ const homepage4 = () => {
       <AboutV4 />
       <ProjectServices />
       <ClientsV3 />
-      <ServicesV5 />
+      <ServicesV3 />
       {/* <Clients /> */}
       {/* <TestimonialV5 /> */}
       <ImageMarque />

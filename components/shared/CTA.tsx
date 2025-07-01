@@ -29,7 +29,6 @@ const CTA: FC<CTAProps> = ({ showContactForm = false, headingClass = '', buttonT
                 { id: '3', img: '/images/agent/camera1.jpg' },
               ]}
             />
-            with us.
             <i className="block font-instrument italic max-md:inline-block max-sm:pl-2 sm:mt-10">A virtual coffee?</i>
           </h2>
         </RevealWrapper>

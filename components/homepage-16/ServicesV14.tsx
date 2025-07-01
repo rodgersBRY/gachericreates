@@ -23,14 +23,15 @@ const ServicesV14 = () => {
         </RevealWrapperV2>
         <TextAppearAnimation02>
           <h2 className="text-appear mb-3">
-            Marketing solutions designed for <br />
-            <i className="font-instrument"> maximum impact</i>
+            Turning real moments into powerful <br />
+            <i className="font-instrument"> Visual Narratives</i>
           </h2>
         </TextAppearAnimation02>
         <TextAppearAnimation>
           <p className="text-appear mx-auto lg:max-w-[770px]">
-            Our marketing solutions boost engagement and ROI with targeted campaigns, improving brand visibility through
-            SEO and social media.
+            Here’s a closer look at the creative services available — each one designed to help you communicate clearly,
+            visually, and meaningfully. Whether it's behind the camera or behind the scenes, I bring your ideas to life
+            with intention and impact
           </p>
         </TextAppearAnimation>
       </div>
@@ -39,7 +40,7 @@ const ServicesV14 = () => {
           <RevealWrapper
             key={service.slug}
             className="reveal-me group border px-6 py-9 dark:border-dark lg:px-[30px] lg:py-[50px]">
-            <Link href={`/marketing/services/${service.slug}`}>
+            <Link href={`/services/${service.slug}`}>
               <figure>
                 <Image
                   src={service.logo}
@@ -96,7 +97,7 @@ const ServicesV14 = () => {
           </RevealWrapper>
         ))}
       </div>
-      <RevealWrapper as="ul" className="mx-auto mt-7 flex justify-center max-md:w-full max-md:px-4 md:mt-14">
+      {/* <RevealWrapper as="ul" className="mx-auto mt-7 flex justify-center max-md:w-full max-md:px-4 md:mt-14">
         <li className="mx-auto block w-full text-center md:inline-block md:w-auto">
           <Link href="/services" className="rv-button rv-button-white block md:inline-block">
             <div className="rv-button-top">
@@ -107,7 +108,7 @@ const ServicesV14 = () => {
             </div>
           </Link>
         </li>
-      </RevealWrapper>
+      </RevealWrapper> */}
     </section>
   )
 }

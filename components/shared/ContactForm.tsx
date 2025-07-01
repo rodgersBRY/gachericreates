@@ -1,15 +1,19 @@
 const interestData = [
-  { id: 'uiux', value: 'UI/UX Design' },
-  { id: 'webdesign', value: 'Web Design' },
-  { id: 'webdev', value: 'Web Development' },
-  { id: 'website', value: 'Website Creation' },
-  { id: 'animation', value: 'Animation' },
-  { id: 'others', value: 'Others' },
+  { id: '1', value: 'Event Photography' },
+  { id: '2', value: 'Wildlife Photography' },
+  { id: '3', value: 'Content Creation' },
+  { id: '4', value: 'Storytelling' },
+  { id: '5', value: 'Branding' },
+  { id: '6', value: 'Creative Direction' },
+  { id: '7', value: 'Collaboration' },
+  { id: '8', value: 'Other' },
 ]
+
 const budgetData = [
-  { id: 'budget1', value: '$2k-4k' },
-  { id: 'budget2', value: '$4k-6k' },
-  { id: 'budget3', value: '$6k-8k' },
+  { id: 'budget1', value: 'KES 1,000 – 10,000' },
+  { id: 'budget1', value: 'KES 10,000 – 20,000' },
+  { id: 'budget2', value: 'KES 20,000 – 40,000' },
+  { id: 'budget3', value: 'KES 60,000 - ...' },
 ]
 
 const ContactForm = () => {
@@ -18,7 +22,7 @@ const ContactForm = () => {
       {/* Your Data Field */}
       <div className="md:col-span-full">
         <label htmlFor="name" className="text-2xl leading-[1.2] tracking-[-0.48px] text-[#000000b3] dark:text-dark-100">
-          Your Data
+          Your Full Name
         </label>
         <input
           type="text"
@@ -50,7 +54,7 @@ const ContactForm = () => {
       {/* Budget Section */}
       <div className="md:col-span-full">
         <label className="text-2xl leading-[1.2] tracking-[-0.48px] text-[#000000b3] dark:text-dark-100">
-          Budget in USD:
+          Budget in KES:
         </label>
 
         <div className="mt-3 flex flex-wrap gap-6">
