@@ -1,8 +1,8 @@
 'use client'
 import useReveal from '@/hooks/useReveal'
 import RevealWrapper from '../animation/RevealWrapper'
-import CompanyLogosMarquee from '../homepage-02/CompanyLogosMarquee'
 import CircleTextAnimation from './CircleTextAnimation'
+import CompanyLogosMarquee from './CompanyLogosMarquee'
 
 interface AboutProps {
   marquee?: boolean

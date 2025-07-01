@@ -6,7 +6,7 @@ import Link from 'next/link'
 import { FC, useState } from 'react'
 import RevealWrapper from '../animation/RevealWrapper'
 import Pagination from './Pagination'
-import { BlogType } from '@/app/types/BlogType'
+import { BlogType } from '@/types/BlogType'
 
 interface BlogsProps {
   Blogs: BlogType[]

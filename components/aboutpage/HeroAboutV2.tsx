@@ -1,7 +1,7 @@
 import React from 'react'
 import RevealWrapper from '../animation/RevealWrapper'
 
-const AboutHero = () => {
+const HeroAboutV2 = () => {
   return (
     <section className="pb-14 pt-28 md:pb-20 md:pt-48 lg:pb-[100px] lg:pt-[200px]">
       <RevealWrapper className="container">
@@ -26,4 +26,4 @@ const AboutHero = () => {
   )
 }
 
-export default AboutHero
+export default HeroAboutV2
