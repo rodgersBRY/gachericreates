@@ -1,13 +1,20 @@
 [
   {
-    "title": "[GacheriCreates]",
+    "title": "[Policies]",
     "links": [
-      { "href": "/about-02", "label": "About" },
       { "href": "/faq", "label": "FAQ" },
-      { "href": "/contact", "label": "Contact" },
       { "href": "/terms", "label": "Terms of Service" },
       { "href": "/policy", "label": "Privacy Policy" },
       { "href": "/changelog", "label": "Changelog" }
+    ]
+  },
+  {
+    "title": "[GacheriCreates]",
+    "links": [
+      { "href": "/about", "label": "About" },
+      { "href": "/gallery", "label": "Gallery" },
+      { "href": "/services", "label": "Creative Services" },
+      { "href": "/contact", "label": "Contact" }
     ]
   }
 ]

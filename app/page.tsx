@@ -15,7 +15,7 @@ export const metadata = {
 
 const homepage = () => {
   return (
-    <LayoutOne>
+    <>
       <HeroV11 />
       <AboutV4 />
       <ProjectServices />
@@ -25,7 +25,7 @@ const homepage = () => {
       {/* <TestimonialV5 /> */}
       <ImageMarque />
       <CTA />
-    </LayoutOne>
+    </>
   )
 }
 

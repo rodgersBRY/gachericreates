@@ -12,7 +12,7 @@ const Footer = () => {
         <div className="relative z-10 flex flex-col flex-wrap justify-center gap-y-10 sm:flex-row sm:justify-between sm:gap-y-16">
           <div className="pr-8 max-lg:basis-full">
             <h5 className="mb-4 font-satoshi text-sm font-bold uppercase tracking-[3px] text-white sm:mb-8">
-              Reach Me
+              [Reach Me]
             </h5>
             <p className="mb-5 text-sm text-white">
               Book a quick 15 min meeting where we discuss if we <br />
