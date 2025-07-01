@@ -1,4 +1,4 @@
-import ServicesV3 from '@/components/homepage-03/ServicesV3'
+import ServicesV3 from '@/components/aboutpage/ServicesV3'
 import AboutV4 from '@/components/homepage-04/AboutV4'
 import HeroV11 from '@/components/homepage-04/HeroV11'
 import ImageMarque from '@/components/homepage-04/ImageMarque'

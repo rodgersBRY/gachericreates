@@ -1,12 +1,10 @@
 import Team from '@/components/aboutpage/Team'
 import CTA from '@/components/shared/CTA'
-import CtaImageSlider from '@/components/shared/CtaImageSlider'
-import LayoutOne from '@/components/shared/LayoutOne'
 import PageHero from '@/components/shared/PageHero'
 
 const TeamPage = () => {
   return (
-    <LayoutOne>
+    <>
       <PageHero
         title="Our Creative "
         italicTitle="Team"
@@ -18,7 +16,7 @@ to introduce your creative team. Let me know if you'd like any specific adjustme
       />
       <Team />
       <CTA />{' '}
-    </LayoutOne>
+    </>
   )
 }
 

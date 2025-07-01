@@ -1,9 +1,7 @@
-import WhyChooseUsV6 from '@/components/homepage-17/WhyChooseUsV6'
 import ServiceContent from '@/components/services-page/ServiceContent'
 import ServicesHero from '@/components/services-page/ServicesHero'
 import CTA from '@/components/shared/CTA'
-import FaqV2 from '@/components/shared/FaqV2'
-import LayoutOne from '@/components/shared/LayoutOne'
+import FAQ from '@/components/shared/FAQ'
 import { ServicesType } from '@/components/shared/ServicesV8'
 import getMarkDownContent from '@/utils/GetMarkDownContent'
 import getMarkDownData from '@/utils/GetMarkDownData'
@@ -21,13 +19,13 @@ const ServiceDetails = async ({ params }: { params: Promise<{ slug: string }> })
   const postServices = service.data
 
   return (
-    <LayoutOne>
+    <>
       <ServicesHero title={postServices?.title} description={postServices?.description} scale />
       <ServiceContent service={service} />
       {/* <WhyChooseUsV6 /> */}
-      <FaqV2 titleChange />
+      <FAQ />
       <CTA />
-    </LayoutOne>
+    </>
   )
 }
 

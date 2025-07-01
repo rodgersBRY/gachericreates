@@ -1,6 +1,4 @@
 import CTA from '@/components/shared/CTA'
-import CtaImageSlider from '@/components/shared/CtaImageSlider'
-import LayoutOne from '@/components/shared/LayoutOne'
 import PageHero from '@/components/shared/PageHero'
 import TermsPolicyBody from '@/components/shared/TermsPolicyBody'
 import getMarkDownData from '@/utils/GetMarkDownData'
@@ -18,11 +16,11 @@ const termsData: TermsDataType[] = getMarkDownData('data/policy')
 
 const FAQPage = () => {
   return (
-    <LayoutOne>
+    <>
       <PageHero title="Terms & " italicTitle="Privacy" badgeTitle="Terms" scale />
       <TermsPolicyBody termsData={termsData} />
       <CTA />
-    </LayoutOne>
+    </>
   )
 }
 

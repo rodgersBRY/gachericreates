@@ -19,7 +19,7 @@ const menuItems: MenuItemProps[] = [
   },
   {
     title: 'About',
-    url: '/about-02',
+    url: '/about',
   },
   {
     title: 'Services',

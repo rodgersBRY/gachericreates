@@ -1,7 +1,5 @@
-import PricingCard from '@/components/homepage-07/PricingCard'
+import PricingCard from '@/components/pricingpage/PricingCard'
 import CTA from '@/components/shared/CTA'
-import CtaImageSlider from '@/components/shared/CtaImageSlider'
-import LayoutOne from '@/components/shared/LayoutOne'
 import PageHero from '@/components/shared/PageHero'
 
 export const metadata = {
@@ -10,7 +8,7 @@ export const metadata = {
 
 const PricingPage = () => {
   return (
-    <LayoutOne>
+    <>
       <PageHero
         title="Pricing"
         italicTitle="Plan"
@@ -21,7 +19,7 @@ injected words which don't look even slightly believable."
       />
       <PricingCard />
       <CTA />
-    </LayoutOne>
+    </>
   )
 }
 

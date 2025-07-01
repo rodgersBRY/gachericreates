@@ -1,12 +1,8 @@
 import AboutHero from '@/components/aboutpage-02/AboutHero'
-import TeamGallery from '@/components/aboutpage-02/TeamGallery'
-import Clients from '@/components/homepage-03/Clients'
-import ServicesV3 from '@/components/homepage-03/ServicesV3'
-import HeroAbout from '@/components/homepage-07/HeroAbout'
-import CtaV2 from '@/components/shared/CtaV2'
-import FaqV2 from '@/components/shared/FaqV2'
-import LayoutOne from '@/components/shared/LayoutOne'
-import SkewMarquee from '@/components/shared/SkewMarquee'
+import HeroAbout from '@/components/aboutpage/HeroAbout'
+import ServicesV3 from '@/components/aboutpage/ServicesV3'
+import CTA from '@/components/shared/CTA'
+import FAQ from '@/components/shared/FAQ'
 import Video from '@/components/shared/Video'
 
 export const metadata = {
@@ -17,7 +13,7 @@ export const metadata = {
 
 const AboutPage = () => {
   return (
-    <LayoutOne>
+    <>
       <AboutHero />
       <Video />
       <HeroAbout spacingTop="pt-10 sm:pt-16 md:pt-[100px] mb-10 lg:mb-20" />
@@ -25,9 +21,9 @@ const AboutPage = () => {
       <ServicesV3 />
       {/* <TeamGallery /> */}
       {/* <Clients /> */}
-      <FaqV2 />
-      <CtaV2 />
-    </LayoutOne>
+      <FAQ />
+      <CTA />
+    </>
   )
 }
 

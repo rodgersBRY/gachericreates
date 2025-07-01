@@ -21,7 +21,7 @@ const CTA: FC<CTAProps> = ({ showContactForm = false, headingClass = '', buttonT
               'text-center font-normal xl:text-[96px] xl:leading-[1.1] xl:tracking-[-2.88px]',
               headingClass,
             )}>
-            Let's chat!
+            Let's
             <CtaImageSlider
               slides={[
                 { id: '1', img: '/images/agent/camera.jpg' },
@@ -29,7 +29,8 @@ const CTA: FC<CTAProps> = ({ showContactForm = false, headingClass = '', buttonT
                 { id: '3', img: '/images/agent/camera1.jpg' },
               ]}
             />
-            <i className="block font-instrument italic max-md:inline-block max-sm:pl-2 sm:mt-10">A virtual coffee?</i>
+            Create
+            <i className="block font-instrument italic max-md:inline-block max-sm:pl-2 sm:mt-10">Something Iconic</i>
           </h2>
         </RevealWrapper>
         <RevealWrapper as="ul" className="mt-14 flex list-none items-center justify-center">

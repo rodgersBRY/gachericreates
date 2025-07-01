@@ -1,7 +1,5 @@
 import ContactForm from '@/components/contactpage/ContactForm'
 import CTA from '@/components/shared/CTA'
-import CtaImageSlider from '@/components/shared/CtaImageSlider'
-import LayoutOne from '@/components/shared/LayoutOne'
 import PageHero from '@/components/shared/PageHero'
 
 export const metadata = {
@@ -12,7 +10,7 @@ export const metadata = {
 
 const ContactPage = () => {
   return (
-    <LayoutOne>
+    <>
       <PageHero
         title="Let's Work Together"
         badgeTitle="Contact"
@@ -22,7 +20,7 @@ const ContactPage = () => {
       />
       <ContactForm />
       <CTA />
-    </LayoutOne>
+    </>
   )
 }
 

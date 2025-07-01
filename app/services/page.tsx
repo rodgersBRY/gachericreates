@@ -1,8 +1,6 @@
-import ServicesV14 from '@/components/homepage-16/ServicesV14'
+import ServicesV14 from '@/components/services-page/ServicesV14'
 import Process from '@/components/services-page/Process'
 import CTA from '@/components/shared/CTA'
-import CtaImageSlider from '@/components/shared/CtaImageSlider'
-import LayoutOne from '@/components/shared/LayoutOne'
 import PageHero from '@/components/shared/PageHero'
 
 export const metadata = {
@@ -13,7 +11,7 @@ export const metadata = {
 
 const ServicesPage = () => {
   return (
-    <LayoutOne>
+    <>
       <PageHero
         badgeTitle="Creative Services"
         title="Creative Services"
@@ -25,7 +23,7 @@ const ServicesPage = () => {
       <ServicesV14 />
       <Process />
       <CTA showContactForm={true} />
-    </LayoutOne>
+    </>
   )
 }
 

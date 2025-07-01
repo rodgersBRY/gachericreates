@@ -6,6 +6,7 @@ import { ThemeModeProvider } from '@/utils/Providers'
 import type { Metadata } from 'next'
 import { ReactNode, Suspense } from 'react'
 import '../scss/main.scss'
+import LayoutOne from '@/components/shared/LayoutOne'
 
 export const metadata: Metadata = {
   title: 'Rivor Template',
@@ -24,7 +25,7 @@ export default function RootLayout({
             <ThemeModeProvider>
               <ThemeSwitcher />
               <CursorPointer />
-              {children}
+              <LayoutOne>{children}</LayoutOne>
             </ThemeModeProvider>
           </SmoothScrollProvider>
         </Suspense>
