@@ -61,4 +61,4 @@ This section outlines ownership rights of the designs created for the user. It t
 
 ### Contact Us
 
-If you have any questions or concerns about this privacy policy or our use of your personal information, please contact us at coantct (hello@rivor.com).
+If you have any questions or concerns about this privacy policy or our use of your personal information, please contact us at coantct (info@gachericreates.com).

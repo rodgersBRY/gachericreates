@@ -7,8 +7,8 @@ const ContactForm = () => {
     name: '',
     company: '',
     email: '',
-    service: 'UI/UX',
-    budget: '40k',
+    service: 'Content Creation',
+    budget: '',
     message: '',
   })
 
@@ -35,7 +35,7 @@ const ContactForm = () => {
             <label
               htmlFor="name"
               className="text-2xl leading-[1.2] tracking-[-0.48px] text-[#000000b3] dark:text-dark-100">
-              Full Name
+              Full Name <span className="text-red-500">*</span>
             </label>
             <input
               type="text"
@@ -53,7 +53,7 @@ const ContactForm = () => {
             <label
               htmlFor="company"
               className="text-2xl leading-[1.2] tracking-[-0.48px] text-[#000000b3] dark:text-dark-100">
-              Company Name
+              Company Name (optional)
             </label>
             <input
               type="text"
@@ -70,7 +70,7 @@ const ContactForm = () => {
             <label
               htmlFor="email"
               className="text-2xl leading-[1.2] tracking-[-0.48px] text-[#000000b3] dark:text-dark-100">
-              Work Email
+              Email <span className="text-red-500">*</span>
             </label>
             <input
               type="email"
@@ -88,7 +88,7 @@ const ContactForm = () => {
             <label
               htmlFor="service"
               className="text-2xl leading-[1.2] tracking-[-0.48px] text-[#000000b3] dark:text-dark-100">
-              Service Type*
+              Service Type <span className="text-red-500">*</span>
             </label>
             <select
               id="service"
@@ -97,10 +97,13 @@ const ContactForm = () => {
               onChange={handleChange}
               className="mt-3 w-full appearance-none text-ellipsis border bg-backgroundBody px-5 py-4 indent-px text-xl leading-[1.4] tracking-[0.4px] text-colorText focus:border-primary focus:outline-none dark:border-dark dark:bg-dark"
               required>
-              <option value="UI/UX">UX Design</option>
-              <option value="Web design">Product Design</option>
-              <option value="Web development">Brand Identity</option>
-              <option value="Web development">Design System</option>
+              <option value="UI/UX">Event Photography</option>
+              <option value="Web design">Wildlife Photography</option>
+              <option value="Web development">Content Creation</option>
+              <option value="Web development">Storytelling</option>
+              <option value="Web development">Branding</option>
+              <option value="Web development">Creative Direction</option>
+              <option value="Web development">Other</option>
             </select>
             <span className="absolute right-5 top-1/2 translate-y-1/3">
               <svg
@@ -140,7 +143,7 @@ const ContactForm = () => {
             <label
               htmlFor="budget"
               className="text-2xl leading-[1.2] tracking-[-0.48px] text-[#000000b3] dark:text-dark-100">
-              Project Budget*
+              Project Budget <span className="text-red-500">*</span>
             </label>
             <select
               id="budget"
@@ -149,10 +152,10 @@ const ContactForm = () => {
               onChange={handleChange}
               className="mt-3 w-full appearance-none text-ellipsis border bg-backgroundBody px-5 py-4 indent-px text-xl leading-[1.4] tracking-[0.4px] text-colorText focus:border-primary focus:outline-none dark:border-dark dark:bg-dark"
               required>
-              <option value="40k">$10k - $25k</option>
-              <option value="55k">$25k - $50k</option>
-              <option value="90k">$50k - $100k</option>
-              <option value="100k+">$100k+</option>
+              <option value="40k">KES 10,000 - 20,000</option>
+              <option value="55k">KES 20,000 - 40,000k</option>
+              <option value="90k">KES 40k - 60,000</option>
+              <option value="100k+">KES 60,0000 and above</option>
             </select>
             <span className="absolute right-5 top-1/2 inline translate-y-1/3 dark:hidden">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -182,7 +185,7 @@ const ContactForm = () => {
             <label
               htmlFor="message"
               className="text-2xl leading-[1.2] tracking-[-0.48px] text-[#000000b3] dark:text-dark-100">
-              Project Brief*
+              Project Brief <span className="text-red-500">*</span>
             </label>
             <textarea
               id="message"

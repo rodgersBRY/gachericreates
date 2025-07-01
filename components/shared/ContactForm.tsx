@@ -11,9 +11,9 @@ const interestData = [
 
 const budgetData = [
   { id: 'budget1', value: 'KES 1,000 – 10,000' },
-  { id: 'budget1', value: 'KES 10,000 – 20,000' },
-  { id: 'budget2', value: 'KES 20,000 – 40,000' },
-  { id: 'budget3', value: 'KES 60,000 - ...' },
+  { id: 'budget2', value: 'KES 10,000 – 20,000' },
+  { id: 'budget3', value: 'KES 20,000 – 40,000' },
+  { id: 'budget4', value: 'KES 60,000 - ...' },
 ]
 
 const ContactForm = () => {
@@ -22,7 +22,7 @@ const ContactForm = () => {
       {/* Your Data Field */}
       <div className="md:col-span-full">
         <label htmlFor="name" className="text-2xl leading-[1.2] tracking-[-0.48px] text-[#000000b3] dark:text-dark-100">
-          Your Full Name
+          Your Full Name <span className="text-red-500">*</span>
         </label>
         <input
           type="text"
@@ -36,7 +36,7 @@ const ContactForm = () => {
       {/* Interests Section */}
       <div className="md:col-span-full">
         <label className="text-2xl leading-[1.2] tracking-[-0.48px] text-[#000000b3] dark:text-dark-100">
-          You are interested in
+          You are interested in <span className="text-red-500">*</span>
         </label>
 
         <div className="mt-3 flex flex-wrap gap-6">
@@ -54,7 +54,7 @@ const ContactForm = () => {
       {/* Budget Section */}
       <div className="md:col-span-full">
         <label className="text-2xl leading-[1.2] tracking-[-0.48px] text-[#000000b3] dark:text-dark-100">
-          Budget in KES:
+          Budget in KES: <span className="text-red-500">*</span>
         </label>
 
         <div className="mt-3 flex flex-wrap gap-6">
@@ -74,7 +74,7 @@ const ContactForm = () => {
         <label
           htmlFor="message"
           className="text-2xl leading-[1.2] tracking-[-0.48px] text-[#000000b3] dark:text-dark-100">
-          Project Details
+          Project Details <span className="text-red-500">*</span>
         </label>
         <textarea
           id="message"

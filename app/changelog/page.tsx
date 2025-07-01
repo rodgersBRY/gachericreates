@@ -15,7 +15,7 @@ Unlock a world of discovery and secrets within!"
         scale
       />
       <ChangelogBody />
-      <CTA />
+      {/* <CTA /> */}
     </LayoutOne>
   )
 }
